@@ -117,6 +117,7 @@ body {
     font-size: 60px;
     font-family: '宋体';
     font-weight: bold;
+    text-shadow: 2px 3px darkgrey;
 }
 
 .day {
@@ -131,6 +132,7 @@ body {
     font-size: 36px;
     font-family: '宋体';
     color: gray;
+    text-shadow: 2px 3px #fff;
 }
 
 .clock {
