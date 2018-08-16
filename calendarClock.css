@@ -15,6 +15,7 @@ body {
     height: 100%;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
 }
 
 body {
@@ -22,9 +23,9 @@ body {
 }
 
 .calendar {
-    position: absolute;
-    top: 30%;
-    left: 30%;
+    position: relative;
+    top: 10%;
+    /* left: 30%; */
     width: 200px;
     height: 250px;
     background-color: bisque;
@@ -33,6 +34,8 @@ body {
     text-align: center;
     border: 2px solid #fff;
     border-radius: 0 0 15% 0;
+    /* float: left; */
+    margin: 0 auto;
 }
 
 .round {
@@ -131,9 +134,9 @@ body {
 }
 
 .clock {
-    position: absolute;
-    top: 40%;
-    left: 50%;
+    position: relative;
+    top: 20%;
+    /* left: -3%; */
     width: 300px;
     height: 100px;
     background-color: cadetblue;
@@ -147,4 +150,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #fff;
     font-weight: bold;
+    /* float: left; */
+    margin: 0 auto;
 }
